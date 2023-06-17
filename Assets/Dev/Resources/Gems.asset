@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3af1fb7aed9a44baa82d851fedef0e, type: 3}
+  m_Name: Gems
+  m_EditorClassIdentifier: 
+  GemModels:
+  - gemPrefab: {fileID: 1965798146132807656, guid: 189446c04c0bc35489736f16f4a8a093, type: 3}
+    gemName: Green Gem
+    gemColor: 0
+    gemStartPrice: 150
+    gemSprite: {fileID: 21300000, guid: 37ffe619fbf3eff498d3ae9ab5af58d5, type: 3}
+    collectedGemPrefab: {fileID: 2653365651307686608, guid: 2293c0d4328018d4495344000f7066a3, type: 3}
+    collectedGemCount: 74
+  - gemPrefab: {fileID: 4711095894975149168, guid: 7045535847de3774cb90232ec64ad673, type: 3}
+    gemName: Pink Gem
+    gemColor: 1
+    gemStartPrice: 130
+    gemSprite: {fileID: 21300000, guid: 22e9f3e5d7c474948a11230159727337, type: 3}
+    collectedGemPrefab: {fileID: 8162245559251398260, guid: 3cdb6d012c7df394db54109aa1ad775f, type: 3}
+    collectedGemCount: 72
+  - gemPrefab: {fileID: 4822070883062084392, guid: 75e1c76172442064dab3e099016d95ef, type: 3}
+    gemName: Yellow Gem
+    gemColor: 2
+    gemStartPrice: 100
+    gemSprite: {fileID: 21300000, guid: 2dc330600eaefa845ad01f6d602df6d7, type: 3}
+    collectedGemPrefab: {fileID: 2111200710581193616, guid: 19babb1444f69bf40a4ccb465aa46aa4, type: 3}
+    collectedGemCount: 57
+  - gemPrefab: {fileID: 1965798146132807656, guid: 880a6ac50ddfba549860604879acee17, type: 3}
+    gemName: Blue Gem
+    gemColor: 3
+    gemStartPrice: 200
+    gemSprite: {fileID: 21300000, guid: 86965ff3c2880574294cc853b47945e0, type: 3}
+    collectedGemPrefab: {fileID: 2653365651307686608, guid: aebaaaaf5efa34e43b62ea8266c4d7e0, type: 3}
+    collectedGemCount: 74
+  - gemPrefab: {fileID: 4822070883062084392, guid: 0ebfb639d23c4fe46a507f498d7a2d48, type: 3}
+    gemName: Orange Gem
+    gemColor: 4
+    gemStartPrice: 180
+    gemSprite: {fileID: 21300000, guid: 39231a56f5b476c4bbf7a15e2d61c5ef, type: 3}
+    collectedGemPrefab: {fileID: 2111200710581193616, guid: 1f54a3704ac062a4c944b3ef2b143381, type: 3}
+    collectedGemCount: 74
